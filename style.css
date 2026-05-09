@@ -1,0 +1,62 @@
+.docu-hero{
+    background-image: url(/src/image/document-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;        /* পুরো div cover করবে */
+    background-position: center;
+} 
+
+.interview{
+    background-image: url(/src/image/interview-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;        /* পুরো div cover করবে */
+    background-position: center;
+} 
+
+.form{
+    background-image: url(/src/image/form-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;        /* পুরো div cover করবে */
+    background-position: center;
+} 
+.img-box {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.img-box:hover .gallery-img {
+  transform: scale(1.2);
+}
+
+/* 🔥 download button bottom center */
+.download-area {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;   /* নিচে নামাবে */
+}
+
+.gallery img{
+      cursor:pointer;
+      border-radius:10px;
+      transition:0.3s;
+      width:100%;
+      height:250px;
+      object-fit:cover;
+    }
+
+      .gallery img:hover{
+      transform:scale(1.03);
+    }
+
+    #modalImage{
+      transform:scale(1);
+      transition:0.3s ease;
+      max-height:80vh;
+    }
